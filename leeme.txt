@@ -1,0 +1,17 @@
+La versiónn 4.0 del framework esmvcphp
+es una versió multiaplicación.
+
+El objetivo es disponer de un cuerpo común de scripts que estar�n 
+ubicados en la carpeta .../esmvcphp que podría considerarse la aplicacion0
+y en otras carpetas
+.../aplicacion1/
+.../aplicacion2/
+Estar�a contenido el c�digo de otras aplicaciones con la misma estructura
+interna de carpetas que .../esmvcphp (la mayoría vacías) que utilizarían los
+scripts (clases, vistas, ...) de esmvcphp salvo aquellos que sean nuevos y específicos
+de una aplicaci�n y que se escribieran en las carpetas de la aplicación,
+pues no tiene sentido que se compartan con ninguna otra aplicación.
+
+Dicho de otra manera, sea la aplicación .../aplicacion1/ el c�digo de esta aplicación 
+es el formado por el que haya en las carpetas de la propia aplicación más el que haya
+e interese utilizarse de las carpetas de .../esmvcphp.
